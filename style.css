@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --animalia-font: "DoHyeon";
+}
+body {
+  background-color: rgb(245, 239, 233);
+}
+header, footer {
+  background-color: rgb(43, 139, 43);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 2.8rem;
+  h1 {
+    font-family: var(--animalia-font);
+    font-size: 2.6rem;
+    font-weight: 600;
+    color: rgb(255, 255, 41);
+  }
+}
+
+main {
+  margin: 3rem;
+  margin-right: 10%;
+  .title {
+    h1 {
+      font-family: Alata;
+      font-size: 3.5rem;
+      color: black;
+    }
+    
+    li {
+      color: black;
+      font-family: Outfit;
+    }
+    p {
+      margin-top: 1rem;
+      font-family: Lexend;
+      color: black;
+    }
+  }
+  .text {
+    h1 {
+      font-family: Outfit;
+      font-size: 2.3rem;
+    }
+    h2 {
+      font-family: Alata;
+      font-size: 1.9rem;
+      color: black;
+    }
+    p, li{
+        font-family: Outfit;
+        font-size: 1.2rem;
+    }
+  }
+
+}

@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'DoHyeon';
+    font-style: normal;
+    font-weight: normal;
+    src: local('DoHyeon'), url('DoHyeon-Regular.ttf') format('woff');
+}
+
+@font-face {
+    font-family: 'Alata';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Alata'), url('Alata-Regular.ttf') format('woff');
+}
